@@ -1,0 +1,81 @@
+.container{
+    width: 40%;
+    margin-top: 50px;
+    background-color:#200a72;
+    border: none;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+h5{
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+.form-group{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    width: auto;
+}
+
+button{
+    margin-left: 10px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+    padding: 10px;
+    width: 20%;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+
+.list{
+    margin-top: 30px !important;
+}
+
+li{
+    margin-bottom: 15px;
+    margin-left: -12px;
+    background-color:#0C935F !important;
+    color:white !important;
+    border: none !important;
+    list-style-type: none;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.list-items{
+    display: flex;
+}
+
+.list-items .list-item-list{
+    flex: 1;
+}
+
+.list-items .list-item-time{
+    color:#d7d7d7;
+    
+   
+}
+
+.list-items .list-item-icons{
+    padding-left: 5px;
+    font-size: 25px;
+    color:white;
+    cursor: pointer;
+}
+
+#todo-item{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
